@@ -1,0 +1,171 @@
+<html lang="en">
+<head>
+  <title>Class Details</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta fileName="pageNotFound.html"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <link rel="stylesheet" type="text/css" href="/layout/2014/myunsw.css"/>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!--   <TABLE width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#003366">
+      <FORM name="googleForm" method="GET" action="http://www.google.com/u/theuniversityofnewsouthwales" target="_blank">
+         <TR>
+            <TD colspan="3"><A href="http://www.unsw.edu.au" target="_blank"><IMG src="/images-timetable/unswtext.gif" width="432" height="8" hspace="5" vspace="5" border="0" alt="University of New South Wales"></A></TD>
+         </TR>
+         <TR>
+            <TD bgcolor="#FFFFFF" colspan="3"><IMG src="/images-timetable/trans.gif" width="433" height="1"></TD>
+         </TR>
+         <TR>
+            <TD><IMG src="/images-timetable/UNSWbanner_03.gif" width="89" height="60"></TD>
+                <TD width="432" rowspan="2"><IMG src="/images-timetable/banner2019.jpg" width="521" height="60" alt="Class Details"></TD>
+                    <TD align="right" height="12">
+               <TABLE cellpadding="0" cellspacing="0" border="0" align="right">
+                  <TR>
+                     <TD><A href="https://my.unsw.edu.au/student/StudentContactsPage.html" target="_blank"><IMG src="/images-timetable/contacts.gif" width="66" height="11" border="0" class="icon" onmouseover="this.className='icon2'" onmouseout="this.className='icon'" onmousedown="this.className='icon3'" alt="Contacts"></A></TD>
+                     <TD><A href="http://info.library.unsw.edu.au/" target="_blank"><IMG src="/images-timetable/library.gif" width="56" height="11" border="0" class="icon" onmouseover="this.className='icon2'" onmouseout="this.className='icon'" onmousedown="this.className='icon3'" alt="Library"></A></TD>
+                     <TD><A href="http://unimail.unsw.edu.au/" target="_blank"><IMG src="/images-timetable/unimail.gif" class="icon" width="60" height="11" border="0" onmouseover="this.className='icon2'" onmouseout="this.className='icon'" onmousedown="this.className='icon3'" alt="UniMail"></A></TD>
+                     <TD><A href="http://elearning.unsw.edu.au/" target="_blank"><IMG src="/images-timetable/webct.gif" width="60" height="11" border="0" class="icon" onmouseover="this.className='icon2'" onmouseout="this.className='icon'" onmousedown="this.className='icon3'" alt="WebCT"></A></TD>
+                     <TD width="7"><img src="/images-timetable/trans.gif" width="7" height="1"></TD>
+                  </TR>
+                  <TR>
+                     <TD colspan="2" align="right"><A href="http://www.handbook.unsw.edu.au/" target="_blank"><IMG src="/images-timetable/Button_onlinehandbook.jpg" width="117" height="20" border="0" class="icon" onmouseover="this.className='icon2'" onmouseout="this.className='icon'" onmousedown="this.className='icon3'" alt="Online Handbook"></A></TD>
+                     <TD colspan="2" align="right"><A href="https://my.unsw.edu.au" target="_blank"><IMG src="/images-timetable/Button_myUNSW.jpg" width="64" height="20" border="0" class="icon" onmouseover="this.className='icon2'" onmouseout="this.className='icon'" onmousedown="this.className='icon3'" alt="myUNSW"></A></TD>
+                     <TD width="7"><img src="/images-timetable/trans.gif" width="7" height="1"></TD>
+                  </TR>
+               </TABLE>
+            </TD>
+         </TR>
+         <TR>
+            <TD bgcolor="#FFFFFF" colspan="3" height="1"><IMG src="/images-timetable/trans.gif" width="1" height="1" alt=""></TD>
+         </TR>
+      </FORM>
+   </TABLE>-->
+  <table width="100%" cellspacing="0" cellpadding="0">
+            <form name="googleForm" method="GET" action="http://www.google.com/u/theuniversityofnewsouthwales" target="_blank">
+                <tr>
+                        <td width="30%" style="height:120px; border-bottom:10px solid #FFCC00; background-color:#fff;">
+                                <a href="http://www.unsw.edu.au" target="_blank">
+                                 <img border="0" src="/images-timetable/banner2022.jpg" alt="The University of New South Wales" width="836" height="179" style="float:left; margin-left:20px; margin-top:25px;"/>
+                                 </a>
+                        </td>
+                         <td width="70%" style="height:120px; border-bottom:10px solid #FFCC00; background-color:#fff; vertical-align:bottom; " align="right">
+                        <!--    <div id="hbHeaderBlock">-->
+                                 <ul>
+                                         <li style="display:inline; padding-right:20px; float:right; font-family: arial, helvetica, sans-serif;font-size: 1.1em"><a href="http://www.unsw.edu.au/contacts">Contacts</a></li>
+                                         <li style="display:inline; padding-right:20px; float:right; font-family: arial, helvetica, sans-serif; font-size: 1.1em"><a href="http://www.library.unsw.edu.au/" title="Visit the UNSW Library Homepage">Library</a></li>
+                                        <li style="display:inline; padding-right:20px; float:right;font-family: arial, helvetica, sans-serif;font-size: 1.1em"><a href="https://my.unsw.edu.au" title="Visit the myUNSW Homepage">myUNSW</a></li>
+                                         <li style="display:inline; padding-right:20px; float:right;font-family: arial, helvetica, sans-serif;font-size: 1.1em"><a href="https://student.unsw.edu.au/node/62/" title="Visit the UNSW e-Learning Homepage">e-Learning</a></li>
+                                 </ul>
+                        <!--   </div> -->
+                         </td>
+                 </tr>
+         </form>
+                 </table>
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+         <td class="classSearchFormHeading">
+                <bold>2022 timetable information for the selected course was not found </bold>
+                 </td>
+      </tr>
+   </table>
+   <table width="100%" cellspacing="0">
+     <tr>
+       <td class="classSearchFormBody">
+         <table width="100%" cellspacing="0">
+           <tr>
+             <td class="formBody">
+               <table width="100%" cellspacing="0">
+                 <tr><td class="note">Data on the Class Timetable site is updated on a nightly basis.<br/></td></tr>
+                         <tr>
+                   <td class="note">Current UNSW students may also enquire on timetabling data through the Class Search facility in
+                                     <class="label"><a href="https://my.unsw.edu.au" target="_blank">myUNSW </a></class>from the relevant timetable release dates.
+                               </td>
+                 </tr>
+                         <tr>
+                   <td class="note">myUNSW also contains a range of policy and procedural information, and information about life at University and services for students.</td>
+                 </tr>
+               </table>
+             </td>
+           </tr>
+         </table>
+         <br/>
+         <table width="100%" cellspacing="0">
+           <tr>
+             <td class="data" colspan="2">The selected course is <b>currently</b> not listed on the timetable for <b>2022</b><br/><br/></td>
+           </tr>
+           <tr>
+
+                <td class="data" colspan="2">Information regarding teaching periods, staff contacts and delivery modes for courses taught in <b>2022</b> will be available from <b>17 September 2021</b>.<br/><br/>Class timetables will be published according to the following schedule* :</td>
+           </tr>
+           <tr><td class="rowSpacer" colspan="2"></td></tr>
+
+            <tr>
+
+                <td class="data" colspan="2">UNSW 3Plus terms:</td>
+           </tr>
+           <tr><td class="rowSpacer" colspan="2"></td></tr>
+           <tr>
+             <td class="data" width="5%"></td>
+                     <td class="data"><b>Summer Term</b> - Timetable available from <b>24 September 2021</b><br/></td>
+                   </tr>
+           <tr><td class="rowSpacer" colspan="2"></td></tr>
+           <tr>
+             <td class="data" width="5%"></td>
+                     <td class="data"><b>Term One</b> - Timetable available from <b>5 November 2021</b><br/></td>
+                   </tr>
+           <tr><td class="rowSpacer" colspan="2"></td></tr>
+           <tr>
+             <td class="data" width="5%"></td>
+                     <td class="data"><b>Term Two</b> - Timetable available from <b>18 March 2022</b><br/></td>
+                   </tr>
+           <tr><td class="rowSpacer" colspan="2"></td></tr>
+            <tr>
+             <td class="data" width="5%"></td>
+                     <td class="data"><b>Term Three</b> - Timetable available from <b>1 July 2022 </b><br/><br/></td>
+                   </tr>
+           <tr><td class="rowSpacer" colspan="2"></td></tr>
+
+
+
+
+
+
+           <tr>
+
+               <td class="data" colspan="2">UNSW 2Plus terms: (UNSW Canberra only)</td>
+           </tr>
+           <tr><td class="rowSpacer" colspan="2"></td></tr>
+           <tr>
+             <td class="data" width="5%"></td>
+                     <td class="data"><b>Summer Term</b> - Timetable available from <b>8 October 2021</b><br/></td>
+                   </tr>
+           <tr><td class="rowSpacer" colspan="2"></td></tr>
+           <tr>
+             <td class="data" width="5%"></td>
+                     <td class="data"><b>Semester One(Z1)</b> - Timetable available from <b>8 October 2021</b><br/></td>
+                   </tr>
+           <tr><td class="rowSpacer" colspan="2"></td></tr>
+           <tr>
+             <td class="data" width="5%"></td>
+                     <td class="data"><b>Semester Two(Z2)</b> - Timetable available from <b>6 May 2022</b><br/><br/></td>
+                   </tr>
+           <tr><td class="rowSpacer" colspan="2"></td></tr>
+
+
+
+
+           <tr>
+             <td class="note" colspan="2"> * Subject to change</td>
+           </tr>
+         </table>
+       </td>
+     </tr>
+   </table>
+   <br/>
+   <table width="100%" cellspacing="0">
+     <tr>
+       <td align="center" class="footer">UNSW Sydney NSW 2052, Australia Telephone: (within Aust.) 02 9385 1000, (International) +61 2 9385 1000<br>CRICOS Provider Code 00098G ABN: 57 195 873 179 Authorised by Vice-President and Deputy Vice-Chancellor (Academic)<a href="http://www.unsw.edu.au/privacy" target="_blank">Privacy Policy</a>&nbsp;&nbsp;<a href="http://www.unsw.edu.au/copyright-disclaimer" target="_blank">Copyright &amp; Disclaimer</a>&nbsp;&nbsp;<a href="http://www.unsw.edu.au/accessibility" target="_blank">Accessibility</a></td>
+     </tr>
+   </table>
+  </body>
+</html>
