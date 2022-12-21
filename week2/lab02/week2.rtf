@@ -1,0 +1,273 @@
+{\rtf1\ansi\ansicpg936\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;\f2\fnil\fcharset134 PingFangSC-Regular;
+\f3\fnil\fcharset134 PingFangSC-Semibold;\f4\froman\fcharset0 Times-Roman;\f5\fnil\fcharset134 STSongti-SC-Regular;
+\f6\froman\fcharset0 Times-Bold;\f7\fnil\fcharset134 STSongti-SC-Bold;\f8\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red89\green138\blue67;\red23\green23\blue23;
+\red202\green202\blue202;\red140\green211\blue254;\red212\green214\blue154;\red183\green111\blue179;\red194\green126\blue101;
+\red167\green197\blue152;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c41569\c60000\c33333;\cssrgb\c11765\c11765\c11765;
+\cssrgb\c83137\c83137\c83137;\cssrgb\c61176\c86275\c99608;\cssrgb\c86275\c86275\c66667;\cssrgb\c77255\c52549\c75294;\cssrgb\c80784\c56863\c47059;
+\cssrgb\c70980\c80784\c65882;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww12600\viewh7280\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 1. echo
+\f1\b0 \
+
+\f2 echo hello world\
+echo -n hello world\
+echo hello\\nworld\\n\
+echo  -e \'a1\'aehello\\nworld\\n\'a1\'af\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f3\b \cf0 2. Shell variable
+\f2\b0 \
+	1. shell \'b1\'e4\'c1\'bf\'b2\'bb\'d0\'e8\'d2\'aa\'b3\'f5\'ca\'bc\'bb\'af, \'b3\'f5\'ca\'bc\'d6\'b5\'ce\'aa\'bf\'d5\'d7\'d6\'b7\'fb\'b4\'ae\
+	echo $hello\
+	2. \'b8\'b3\'d6\'b5\
+	hello=24\
+	echo $hello\
+\
+	hello = 24 \'a3\'a8\'b1\'a8\'b4\'ed\'a3\'ac\'bb\'e1\'b0\'d1hello\'b5\'b1\'d7\'f7command\'a3\'a9\
+	\
+	\'b6\'d4\'b1\'c8\
+	echo = 24\
+\
+	echo=24\
+	echo $echo\
+\
+	3. \'c3\'fc\'c3\'fb\
+	12hello=24\'a3\'a8\'b2\'bb\'c4\'dc\'d2\'d4\'ca\'fd\'d7\'d6\'bf\'aa\'cd\'b7\'a3\'a9\
+	*hello=24\
+\
+	_hello=24\
+	echo $_hello\
+\
+	\
+
+\f3\b 3. command
+\f2\b0 \
+a=$(date)\
+echo $a\
+\
+a=`date`\
+echo $a\
+\
+a=$(ls)\
+Echo $a\
+\
+
+\f3\b 4. \'b5\'a5\'d2\'fd\'ba\'c5 \'cb\'ab\'d2\'fd\'ba\'c5
+\f2\b0 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f4 \cf2 \expnd0\expndtw0\kerning0
+echo 'this is "normal"'\
+\
+answer=42\
+echo "The answer is $answer."\
+echo "The answer is 
+\f5 \\
+\f4 $answer."\
+echo 'The answer is $answer.'\
+\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f6\b \cf2 5.
+\f7 \'bc\'c6\'cb\'e3
+\f4\b0 \
+x=\'913\'92\
+y=2\
+echo $(($x * $y))\
+echo $((x * y))\
+\
+\
+
+\f6\b 6. gloabbing
+\f4\b0 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f5 \cf2 given\'a3\'ba ab.c   ab.y   a.c   b.c   i.h\
+*.c: ab.c  a.c   b.c\
+*.?: ab.c   ab.y   a.c   b.c   i.h\
+?.?:  a.c   b.c i.h   \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f2 \cf0 \kerning1\expnd0\expndtw0 ?.[ch]: 
+\f5 \cf2 \expnd0\expndtw0\kerning0
+a.c   b.c i.h \
+?.[!c]: i.h\
+\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f7\b \cf2 7. Shell
+\f5\b0 \
+a. Hello  (chmod 755 hello)\
+#!/bin/bash\
+echo hello world\
+echo $(date)\
+\
+echo $0\
+echo $1\
+echo $2\
+echo $#\
+echo $?\
+\
+echo hiiii | tr [:lower:] [:upper:]
+\f2 \cf0 \kerning1\expnd0\expndtw0 \
+\
+b. status error\
+echo $? (status==0)\
+cat shay\
+Echo $?(status==1)\
+\
+c. Exit status\
+test "a" = "b"\
+Echo $?\
+\
+test "a" != "b"\
+\
+test \'a1\'b0a\'a1\'b1 = \'a1\'b0a\'a1\'b1\
+\
+test 1 -eq 1\
+test 1 -gt 1\
+test 1 -ne 1\
+test 1 -lt 1\
+Test -f file\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f4 \cf2 \expnd0\expndtw0\kerning0
+test "$x" -ge 10 -a "$x" -le 20 (x>=10 and x <= 20)\
+\
+8. Hello\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f8 \cf3 \cb4 \outl0\strokewidth0 \strokec3 #!/bin/bash\cf5 \cb1 \strokec5 \
+\cb4 x=21\cb1 \
+\
+\cf3 \cb4 \strokec3 # x>=10 and x <= 20\cf5 \cb1 \strokec5 \
+\cb4 [ \cf6 \strokec6 $x\cf5 \strokec5  -ge 10 -a \cf6 \strokec6 $x\cf5 \strokec5  -le 20 ]\cb1 \
+\
+\cf7 \cb4 \strokec7 echo\cf5 \strokec5  \cf6 \strokec6 $?\cf5 \cb1 \strokec5 \
+\cf3 \cb4 \strokec3 #echo test "$msg" = "Hello"\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f4 \cf2 \outl0\strokewidth0 \
+9. if \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f8 \cf3 \cb4 \outl0\strokewidth0 \strokec3 #!/bin/bash\cf5 \cb1 \strokec5 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb4 \strokec8 if\cf5 \strokec5  \cf7 \strokec7 test\cf5 \strokec5  1 -eq 1 \cb1 \
+\cf8 \cb4 \strokec8 then\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb4   \cf7 \strokec7 echo\cf5 \strokec5  \cf9 \strokec9 "first statement"\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb4 \strokec8 elif\cf5 \strokec5  [ 1 -eq 1 ]\cb1 \
+\cf8 \cb4 \strokec8 then\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb4   \cf7 \strokec7 echo\cf5 \strokec5  \cf9 \strokec9 "second statement"\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb4 \strokec8 else\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb4   \cf7 \strokec7 echo\cf5 \strokec5  \cf9 \strokec9 "else statement"\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb4 \strokec8 fi\cf5 \cb1 \strokec5 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \cb4 \strokec7 test\cf5 \strokec5  1 -eq 1  -> [ 1 -eq 1]\cb1 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f4 \cf2 \outl0\strokewidth0 \
+10. For\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f8 \cf3 \cb4 \outl0\strokewidth0 \strokec3 #!/bin/bash\cf5 \cb1 \strokec5 \
+\cb4 i=1\cb1 \
+\cf7 \cb4 \strokec7 echo\cf5 \strokec5  \cf9 \strokec9 "\cf6 \strokec6 $@\cf9 \strokec9 "\cf5 \cb1 \strokec5 \
+\cf7 \cb4 \strokec7 echo\cf5 \strokec5  \cf6 \strokec6 $@\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb4 \strokec8 for\cf5 \strokec5  \cf6 \strokec6 j\cf5 \strokec5  \cf8 \strokec8 in\cf5 \strokec5  \cf6 \strokec6 $@\cf5 \cb1 \strokec5 \
+\cf8 \cb4 \strokec8 do\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb4   \cf7 \strokec7 echo\cf5 \strokec5  \cf6 \strokec6 $i\cf5 \strokec5  \cf6 \strokec6 $j\cf5 \cb1 \strokec5 \
+\cb4   i=\cf9 \strokec9 $((\cf6 \strokec6 $i\cf5 \strokec5 +\cf10 \strokec10 1\cf9 \strokec9 ))\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb4 \strokec8 done\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf3 \cb4 \strokec3 # continue break\cf5 \cb1 \strokec5 \
+\cf3 \cb4 \strokec3 #./for a b c d e f g\cf5 \cb1 \strokec5 \
+\
+\
+\cf2 11. 
+\f2 While1\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f8 \cf3 \cb4 \strokec3 #!/bin/bash\cf5 \cb1 \strokec5 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \cb4 \strokec7 set\cf5 \strokec5  -x\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb4 i=1 \cf3 \strokec3 #no space\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb4 \strokec8 while\cf5 \strokec5  \cf7 \strokec7 test\cf5 \strokec5  \cf6 \strokec6 $i\cf5 \strokec5  -lt 5 \cf3 \strokec3 # also [ $i -lt 5 ]\cf5 \cb1 \strokec5 \
+\cf8 \cb4 \strokec8 do\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb4   \cf7 \strokec7 echo\cf5 \strokec5  \cf6 \strokec6 $i\cf5 \cb1 \strokec5 \
+\cb4   i=\cf9 \strokec9 $((\cf6 \strokec6 $i\cf9 \strokec9  \cf5 \strokec5 +\cf9 \strokec9  \cf10 \strokec10 1\cf9 \strokec9 ))\cf5 \strokec5  \cf3 \strokec3 #also i=$(($i + 1))\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb4 \strokec8 done\cf5 \cb1 \strokec5 \
+\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf2 12. While 2\cf5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf3 \cb4 \strokec3 #!/bin/bash\cf5 \cb1 \strokec5 \
+\
+\cf3 \cb4 \strokec3 #$0 -> command name\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb4 start=\cf6 \strokec6 $1\cf5 \strokec5  \cf3 \strokec3 #start= $1\cf5 \cb1 \strokec5 \
+\cb4 end=\cf6 \strokec6 $2\cf5 \strokec5  \cb1 \
+\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \cb4 \strokec7 echo\cf5 \strokec5  \cf9 \strokec9 "now we has \cf6 \strokec6 $#\cf9 \strokec9  args"\cf5 \cb1 \strokec5 \
+\cf7 \cb4 \strokec7 echo\cf5 \strokec5  \cf9 \strokec9 'first arg is $start'\cf5 \strokec5  \cf3 \strokec3 #compare to single quote \cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb4                            \cf3 \strokec3 #echo 'first arg is $start'\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \cb4 \strokec7 echo\cf5 \strokec5  \cf9 \strokec9 "second arg is \cf6 \strokec6 $end\cf9 \strokec9 "\cf5 \cb1 \strokec5 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf3 \cb4 \strokec3 # check num of arg\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb4 \strokec8 if\cf5 \strokec5  \cf7 \strokec7 test\cf5 \strokec5  \cf6 \strokec6 $#\cf5 \strokec5  -ne 2\cb1 \
+\cf8 \cb4 \strokec8 then\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb4   \cf7 \strokec7 echo\cf5 \strokec5  \cf9 \strokec9 "need 2 args"\cf5 \cb1 \strokec5 \
+\cb4   \cf7 \strokec7 exit\cf5 \strokec5  1\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf3 \cb4 \strokec3 # start < end\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb4 \strokec8 elif\cf5 \strokec5  \cf7 \strokec7 test\cf5 \strokec5  \cf6 \strokec6 $start\cf5 \strokec5  -ge \cf6 \strokec6 $end\cf5 \cb1 \strokec5 \
+\cf8 \cb4 \strokec8 then\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb4   \cf7 \strokec7 echo\cf5 \strokec5  \cf9 \strokec9 "first arg \cf6 \strokec6 $1\cf9 \strokec9  need lt second arg \cf6 \strokec6 $2\cf9 \strokec9 "\cf5 \cb1 \strokec5 \
+\cb4   \cf7 \strokec7 echo\cf5 \strokec5  \cf9 \strokec9 'first arg $1 need lt second arg $2'\cf5 \cb1 \strokec5 \
+\cb4   \cf7 \strokec7 exit\cf5 \strokec5  1\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb4 \strokec8 fi\cf5 \cb1 \strokec5 \
+\
+\
+\cf8 \cb4 \strokec8 while\cf5 \strokec5  [ \cf6 \strokec6 $start\cf5 \strokec5  -le \cf6 \strokec6 $end\cf5 \strokec5  ] \cf3 \strokec3 #[$start -le $end]\cf5 \cb1 \strokec5 \
+\cf8 \cb4 \strokec8 do\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf5 \cb4   \cf7 \strokec7 echo\cf5 \strokec5  \cf6 \strokec6 $start\cf5 \strokec5  \cf6 \strokec6 $end\cf5 \cb1 \strokec5 \
+\cb4   start=\cf9 \strokec9 $((\cf6 \strokec6 $start\cf9 \strokec9  \cf5 \strokec5 +\cf9 \strokec9  \cf10 \strokec10 1\cf9 \strokec9  ))\cf5 \strokec5  \cf3 \strokec3 #start=$(( start + 1 ))\cf5 \cb1 \strokec5 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf8 \cb4 \strokec8 done\cf5 \cb1 \strokec5 \
+\
+}
